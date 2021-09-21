@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DiogoFlix</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/icon.png">
+</head>
+
+<body>
+    <div class="topo">
+        <h1>DiogoFlix</h1>
+        <p id="subtitulo">Lista dos meus filmes favoritos</p>
+        <p>Para adicionar a imagem de um filme, basta inserir a URL da imagem em formato .JPG, .JPEG ou .PNG no campo apaixo e clicar em 'Adicionar'. </p>
+    </div>
+    <div class="topo">
+        <input type="text" id="input-filme" placeholder="URL imagem do Filme .JPG, .JPEG ou .PNG">
+    </div>
+    <div class="topo">
+        <button onclick="adicionarFilme()">Adicionar</button>
+    </div>
+    <div class="listagem">
+        <h3>Lista dos Filmes:</h3>
+    </div>
+    <div id="listaFilmes">
+        <img src="https://upload.wikimedia.org/wikipedia/pt/c/c0/ForrestGumpPoster.jpg">
+        <img src="https://upload.wikimedia.org/wikipedia/pt/0/06/Bird_Box_-_filme_p%C3%B4ster.jpeg">
+        <img src="https://www.belohorizonte.com.br/wp-content/uploads/2020/04/o-poco.jpg">
+        <img src="https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg">
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
